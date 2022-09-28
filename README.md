@@ -81,6 +81,3 @@ Siga os passos abaixo:
 * Na linha **`48`**, onde está escrito **`nome_da_sua_dag`**, você deve trocar pelo nome que você queira que seja mostrado dentro do _`Airflow`_;
 * Na linha **`65`**, onde está escrito **`seu_task_id`**, você deve trocar para um _**`ID`**_ que você queira que seja fácil de rastrear dentro da interface do _`Airflow`_;
 * No módulo _`src/dags/decorators/azureml_connect_decorator.py`_, na linha **`8`**, onde está escrito **`<NOME-DO-SEU-REPOSITORIO>`**, você deve trocá-lo pelo nome do repositório de DAG que você está trabalhando. 
-## Arquitetura
-
-![](./docs/airflow.png "Arquitetura")
