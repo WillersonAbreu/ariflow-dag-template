@@ -1,4 +1,4 @@
-# Template de DAG para  
+# Template de DAG
 
 - [Introdução](#introdução)
 - [Tecnologias utilizadas](#tecnologias-utilizadas)
