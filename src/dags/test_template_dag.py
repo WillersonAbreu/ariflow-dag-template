@@ -18,7 +18,7 @@ dags_decorator = require_module('decorators.azureml_connect_decorator', f'{__APP
 
 
 AZURE_PAT: str = Variable.get('AZURE_PAT')
-REPO_ADDRESS = "dev.azure.com/Unidas-NovasTecnologias/DataScience/_git/<NOME-DO-REPOSITORIO>"
+REPO_ADDRESS = "dev.azure.com/<AZURE-DEVOPS-ORG>/<AZURE-DEVOPS-PROJECT>/_git/<NOME-DO-REPOSITORIO>"
 EXPERIMENT_NAME = '<NOME-DO-EXPERIMENTO-NA-AZURE-ML>'
 MLFLOW_BACKEND = 'azureml'
 MLFLOW_BACKEND_CONFIG = {"COMPUTE": "S-DS3-v2"}
